@@ -1,0 +1,20 @@
+@import "variables";
+@import "components/icons";
+@import "components/top-header";
+@import "components/leftpane";
+@import "components/rightpane";
+@import "components/game-table";
+
+.admin-main {
+  @media(max-width: 767px) {
+    margin-top: 75px;
+  }
+  .admin-main-leftpane {
+    margin: 0;
+    box-shadow: none;
+  }
+  .admin-main-rightpane {
+    min-height: calc(100vh - 128px);
+    margin: 0;
+  }
+}

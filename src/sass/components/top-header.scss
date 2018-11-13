@@ -1,0 +1,43 @@
+.admin-top-header {
+  color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  .admin-menuicon {
+    margin-right: 10px;
+  }
+}
+.admin-top-subheader {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  color: $primary-color;
+  background: none;
+  @media(max-width: 767px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .admin-top-subheader--leftpane {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 64px;
+  }
+  .admin-top-subheader--rightpane {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    height: 64px;
+    .admin-top-subheader--iconset {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .admin-top-subheader--rightpane > h6 {
+    margin-left: 0 !important;
+  }
+}

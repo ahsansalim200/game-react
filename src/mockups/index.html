@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Game</title>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../libraries/css/materialize.min.css">
+        <link rel="stylesheet" href="../css/master.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+
+        <nav class="card-panel blue darken-2 admin-top-header">
+            <div>
+                <h6>Game</h6>
+            </div>
+            <div>
+                <span class="admin-readericon"></span>
+            </div>
+        </nav>
+        <nav class="admin-top-subheader row">
+            <div class="card-panel grey lighten-3 col l3 m3 admin-top-subheader--leftpane hide-on-small-only">
+                <h6>Score Sheet</h6>
+            </div>
+            <div class="card-panel grey lighten-3 col l9 m9 s12 admin-top-subheader--rightpane">
+                <h6 class="col l3 m3 s5">Select Mode</h6>
+                <div class="col l3 m3 s7 admin-top-subheader--iconset">
+                    <button class="waves-effect waves-light btn">3X3</button>
+                    <button class="waves-effect waves-light btn">4X4</button>
+                    <button class="waves-effect waves-light btn">6X6</button>
+                </div>
+            </div>
+        </nav>
+        <main class="admin-main row">
+            <section class="card-panel white admin-main-leftpane col l3 m3 hide-on-small-only">
+                <div class="collection">
+                    <a href="#!" class="collection-item grey-text text-darken-2"><span class="admin-favouritesicon"></span>High Score <span class="new badge" data-badge-caption=""> 23</span></a>
+                    <a href="#!" class="collection-item grey-text text-darken-2"><span class="admin-personicon"></span>Current Score <span class="new badge" data-badge-caption=""> 3</span></a>
+                </div>
+            </section>
+            <section class="card-panel grey lighten-2 admin-main-rightpane col l9 m9 s12">
+
+               <table class="game-table">
+                   <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="active"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                   </tbody>
+               </table>
+            </section>
+        </main>
+        <!--Script inclusions -frameworks-->
+        <script src="./bower_components/materialize/dist/js/materialize.min.js"></script>
+        <!--Script inclusions -Application-->
+
+    </body>
+</html>

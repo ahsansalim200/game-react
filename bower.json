@@ -1,0 +1,20 @@
+{
+  "name": "admin",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ahsan Salim"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^1.0.0"
+  }
+}
